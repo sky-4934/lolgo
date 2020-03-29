@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+
+{% block title %}
+    <title>Logout-Taskmate</title>
+{% endblock title %}
+
+    
+
+{% block message %}
+    <div class="container">
+    <br>
+    <h4> Logged Out Of Taskmate, Adios Amigos </h4>
+        <img src="{% static 'images/img1.jpg' %}" class="rounded float-right" width="450" height="500">
+
+   
+        
+    </div>
+
+    
+{% endblock message %}
